@@ -193,7 +193,7 @@ Meff               500  0  5000
 
 //------------------------------------------------//
 
-FillLeadingJet 0
+FillLeadingJet 1
 
 FirstLeadingJetPt     200   0.   1000.
 SecondLeadingJetPt    200   0.   1000.
@@ -221,7 +221,7 @@ DeltaEtaVsDeltaPhiLeadSubl   200   0      10.   72   0    +3.15
 
 //------------------------------------------------//
 
-FillDiJet 0
+FillDiJet 1
 
 DiJetDeltaR           200   0    10.
 DiJetDeltaEta         200   0    10.

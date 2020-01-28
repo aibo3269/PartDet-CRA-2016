@@ -3,14 +3,15 @@
 ####################################
 
 CalculatePUSystematics true
-DataHistos data_pileup_2016_69p2.root  
-MCHistos mc_pileup_Summer16.root
+DataHistos PileUpReweighting2016.root  
+MCHistos mc2016_pileup_Dec2018Reco.root
 DataPUHistName pileup
 MCPUHistName pileup
 
 ApplyTauIDSF false
 UsePileUpWeight true
 ApplyZBoostSF true
+ApplyJetEtaWeight false
 
 isData false
 ApplyGenWeight  true
@@ -31,7 +32,7 @@ TreatMuonsAsTaus 0
 ///-----MET cuts------///
 
 MT2Mass 0.
-DiscrByMet false
+DiscrByMet true
 MetCut 30.0 10000.0
 
 DiscrByMHT false
@@ -40,8 +41,8 @@ DiscrByHT false
 HtCut 30.0
 
 DiscrByGenHT false
-LowerGenHtCut 100.0
-UpperGenHtCut 150.0
+LowerGenHtCut 0.0
+UpperGenHtCut 70.0
 
 JetPtForMhtAndHt 30.0        
 JetEtaForMhtAndHt 5.0        
