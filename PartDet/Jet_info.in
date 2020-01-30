@@ -96,7 +96,7 @@ Tau2MatchingDeltaR 0.3
 	 FirstLeadingJet
 ###################################
 
-DoDiscrByThisJet 0
+DoDiscrByThisJet 1
 
 EtaCut 0.0 5.0
 PtCut 30.0
@@ -123,7 +123,7 @@ Tau2MatchingDeltaR 0.3
 	 SecondLeadingJet
 ###################################
 
-DoDiscrByThisJet 0
+DoDiscrByThisJet 1
 
 EtaCut 0.0 5.0
 PtCut 30.0
