@@ -4,7 +4,7 @@
 
 CalculatePUSystematics true
 DataHistos PileUpReweighting2016.root  
-MCHistos mc2016_pileup_Dec2018Reco.root
+MCHistos mc2016_pileup_Dec2018reReco.root
 DataPUHistName pileup
 MCPUHistName pileup
 
@@ -33,7 +33,7 @@ TreatMuonsAsTaus 0
 
 MT2Mass 0.
 DiscrByMet true
-MetCut 30.0 10000.0
+MetCut 0.0 30.0
 
 DiscrByMHT false
 MhtCut 50.0
